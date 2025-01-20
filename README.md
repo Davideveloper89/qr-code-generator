@@ -81,7 +81,7 @@ pip install qrcode[pil]
 1. Clone ou baixe este repositório:
    ```bash
    git clone https://github.com/Davideveloper89/qr-code-generator.git
-   cd repositorio-qrcode
+   cd qr-code-generator.git
    ```
 
 2. Execute o script Python:
