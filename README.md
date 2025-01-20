@@ -8,7 +8,7 @@ Um gerador simples de QR Code usando Python e a biblioteca `qrcode`.
 
 Antes de executar o código, certifique-se de que possui os seguintes requisitos instalados:
 
-- **Python 3.x** ✔️
+- **Python 3.7** ✔️
 - **Biblioteca `qrcode`** ✔️
 
 ### 📥 Instalando o Python
@@ -53,9 +53,9 @@ Antes de executar o código, certifique-se de que possui os seguintes requisitos
   Caso necessite compilar o Python manualmente no Alpine Linux:
   ```bash
   doas apk add --no-cache build-base python3-dev py3-pip
-  wget https://www.python.org/ftp/python/3.x.x/Python-3.x.x.tgz
-  tar -xvzf Python-3.x.x.tgz
-  cd Python-3.x.x
+  wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+  tar -xvzf Python-3.7.0.tgz
+  cd Python-3.7.0
   ./configure --enable-optimizations
   make
   doas make install
